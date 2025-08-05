@@ -9,9 +9,13 @@
 This repository demonstrates a practical approach to handling missing data using real-world imputation packages in R. The goal is to:
 
 ✔ Explore and visualize missingness patterns
+
 ✔ Apply multiple imputation methods and generate complete datasets
+
 ✔ Analyze the effect of imputation on variable correlation
+
 ✔ Compare results across imputation strategies
+
 ✔ Automate and organize analysis into modular scripts
 
 ---
@@ -53,7 +57,7 @@ This repository demonstrates a practical approach to handling missing data using
 
 ### Missing Data Pattern and Imputation Comparison
 
-![Posterior Plot](posterior-distribution.png)
+![Posterior Plot](analise_missing_mice_mf_amelia.png)
 
 > The left panel shows the proportion of missing data per variable in the dataset, while the right panel displays the missingness patterns. Variables like chl, bmi, and hyp present substantial missingness, while age is fully observed.
 
@@ -81,7 +85,6 @@ Note: Imputation methods slightly strengthened the correlation between bmi and a
 - 📊 Include dimensionality reduction (e.g., PCA) after imputation
 - 📁 Export results in a report using rmarkdown for reproducibility
 - 🌐 Integrate into a Shiny App for interactive exploration of imputed datasets
-- 
 ---
 
 ## 📚 Use Case
